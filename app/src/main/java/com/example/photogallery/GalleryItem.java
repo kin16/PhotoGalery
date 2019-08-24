@@ -4,6 +4,7 @@ public class GalleryItem {
     private String mCaption;
     private String mId;
     private String mUrl;
+    private String mOwner;
 
     public String getCaption() {
         return mCaption;
@@ -32,5 +33,9 @@ public class GalleryItem {
     @Override
     public String toString() {
         return mCaption;
+    }
+
+    public void setOwner(String mOwner) {
+        this.mOwner = mOwner;
     }
 }

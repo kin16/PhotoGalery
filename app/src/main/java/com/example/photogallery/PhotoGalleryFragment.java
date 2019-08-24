@@ -37,7 +37,7 @@ public class PhotoGalleryFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_photo_gallery, container, false);
 
-        mPhotoRecyclerView = (RecyclerView) v.findViewById(R.id.photo_recycler_view);
+        mPhotoRecyclerView = (RecyclerView) v.findViewById(R.id.photo_recyclerview);
         mPhotoRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
 
         setupAdapter();
