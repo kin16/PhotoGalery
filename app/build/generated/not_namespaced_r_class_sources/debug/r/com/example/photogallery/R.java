@@ -3599,7 +3599,7 @@ public final class R {
     public static final int parent=0x7f07007c;
     public static final int parentPanel=0x7f07007d;
     public static final int percent=0x7f07007e;
-    public static final int photo_recyclerview=0x7f07007f;
+    public static final int photo_recycler_view=0x7f07007f;
     public static final int progress_circular=0x7f070080;
     public static final int progress_horizontal=0x7f070081;
     public static final int radio=0x7f070082;

@@ -787,7 +787,7 @@ id packed
 id parent
 id parentPanel
 id percent
-id photo_recyclerview
+id photo_recycler_view
 id progress_circular
 id progress_horizontal
 id radio
