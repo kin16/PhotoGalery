@@ -12,6 +12,10 @@
         "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/d23ca375c576c4f77f42c729153a7f8a/core-1.1.0-rc02/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+        "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/layout_gallery_item.xml.flat",
+        "source": "/home/eee/PhotoGallery/app/src/main/res/layout/gallery_item.xml"
+    },
+    {
         "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -728,12 +732,12 @@
         "source": "/home/eee/PhotoGallery/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -878,6 +882,10 @@
     {
         "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
         "source": "/home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-v24_icon.png.flat",
+        "source": "/home/eee/PhotoGallery/app/src/main/res/drawable-v24/icon.png"
     },
     {
         "merged": "/home/eee/PhotoGallery/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",

@@ -646,6 +646,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icon
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -756,6 +757,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment_container
+id fragment_photo_gallery_image
 id gone
 id group_divider
 id groups
@@ -885,6 +887,7 @@ layout abc_tooltip
 layout activity_fragment
 layout custom_dialog
 layout fragment_photo_gallery
+layout gallery_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

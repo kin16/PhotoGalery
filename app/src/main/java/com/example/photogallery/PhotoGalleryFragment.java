@@ -12,10 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -25,8 +22,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
 public class PhotoGalleryFragment extends Fragment {
 
@@ -159,16 +154,40 @@ public class PhotoGalleryFragment extends Fragment {
         @Override
         public void onBindViewHolder(PhotoHolder photoHolder, int position) {
             GalleryItem galleryItem = mGalleryItems.get(position);
-            Drawable holder = getResources().getDrawable(R.drawable.icon);
-            photoHolder.bindDrawable(holder);
-            mThumbnailDownloader.queueThumbnail(photoHolder, galleryItem.getUrl());
+
+            Bitmap bitmap = mThumbnailDownloader.getCachedImage(galleryItem.getUrl());
+            if(bitmap == null){
+                Drawable placeholder = getResources().getDrawable(R.drawable.icon);
+                photoHolder.bindDrawable(placeholder);
+                mThumbnailDownloader.queueThumbnail(photoHolder, galleryItem.getUrl());
+            }else{
+                Log.i(TAG, "Loaded image from cache");
+                photoHolder.bindDrawable(new BitmapDrawable(getResources(), bitmap));
+            }
+
+            preLoadAdjacentImage(position);
+
             lastPosition = position;
-            Log.i(TAG,"Last bound position is " + Integer.toString(getLastPosition()));
+            Log.i(TAG,"Last bound position is " + Integer.toString(lastPosition));
         }
 
         @Override
         public int getItemCount() {
             return mGalleryItems.size();
+        }
+    }
+
+    private void preLoadAdjacentImage(int position) {
+        final int imageBufferSize = 10;
+
+        int startIndex = Math.max(position - imageBufferSize, 0);
+        int endIndex = Math.min(position + imageBufferSize, mItems.size() - 1);
+
+        for (int i = startIndex; i <= endIndex; i++) {
+            if (i == position) continue;
+
+            String url = mItems.get(i).getUrl();
+            mThumbnailDownloader.preloadImage(url);
         }
     }
 
