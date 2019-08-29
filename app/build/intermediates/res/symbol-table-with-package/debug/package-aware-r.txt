@@ -776,6 +776,8 @@ id line1
 id line3
 id listMode
 id list_item
+id menu_item_clear
+id menu_item_search
 id message
 id middle
 id multiply
@@ -898,6 +900,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu fragment_photo_gallery
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -940,6 +943,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string clear_search
+string search
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
