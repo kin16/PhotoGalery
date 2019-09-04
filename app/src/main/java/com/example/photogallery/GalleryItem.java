@@ -45,8 +45,9 @@ public class GalleryItem {
         return mOwner;
     }
 
-    public Uri getPhotoPageUri(){
-        return Uri.parse("http://www.flickr.com/photos")
+
+    public Uri getPhotoPageUri() {
+        return Uri.parse("https://www.flickr.com/photos/")
                 .buildUpon()
                 .appendPath(mOwner)
                 .appendPath(mId)

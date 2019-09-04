@@ -64,4 +64,8 @@ public class PhotoPageFragment extends VisibleFragment {
 
         return v;
     }
+
+    public WebView getmWebView() {
+        return mWebView;
+    }
 }
