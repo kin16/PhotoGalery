@@ -758,6 +758,8 @@ id fill_vertical
 id forever
 id fragment_container
 id fragment_photo_gallery_image
+id fragment_photo_page_progress_bar
+id fragment_photo_page_web_wiew
 id gone
 id group_divider
 id groups
@@ -890,6 +892,7 @@ layout abc_tooltip
 layout activity_fragment
 layout custom_dialog
 layout fragment_photo_gallery
+layout fragment_photo_page
 layout gallery_item
 layout notification_action
 layout notification_action_tombstone

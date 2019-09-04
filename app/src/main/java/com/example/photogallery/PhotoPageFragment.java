@@ -1,5 +1,6 @@
 package com.example.photogallery;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -57,7 +58,13 @@ public class PhotoPageFragment extends VisibleFragment {
         });
         mWebView.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                return false;
+                if(url.startsWith("http://") || url.startsWith("https://")){
+                    return false;
+                }else {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                    return true;
+                }
             }
         });
         mWebView.loadUrl(mUri.toString());

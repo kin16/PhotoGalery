@@ -31,7 +31,7 @@
 18-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:11:22-69
 19
 20    <application
-20-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:5-38:19
+20-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:5-41:19
 21        android:allowBackup="true"
 21-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:18-44
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -60,35 +60,41 @@
 33-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:21:27-74
 34            </intent-filter>
 35        </activity>
-36
-37        <service android:name="com.example.photogallery.PollService" />
-37-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:24:9-47
-37-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:24:18-45
-38
-39        <receiver android:name="com.example.photogallery.StartupReceiver" >
-39-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:26:9-30:20
-39-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:26:19-50
-40            <intent-filter>
-40-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:27:13-29:29
-41                <action android:name="android.intent.action.BOOT_COMPLETED" />
-41-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:28:17-78
-41-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:28:25-76
-42            </intent-filter>
-43        </receiver>
-44        <receiver
-44-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:9-37:20
-45            android:name="com.example.photogallery.NotificationReceiver"
-45-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:19-55
-46            android:exported="false" >
-46-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:32:13-37
-47            <intent-filter android:priority="-999" >
-47-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:33:13-36:29
-47-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:34:17-40
-48                <action android:name="com.example.photogallery.SHOW_NOTIFICATION" />
-48-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:35:17-84
-48-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:35:25-82
-49            </intent-filter>
-50        </receiver>
-51    </application>
-52
-53</manifest>
+36        <activity
+36-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:24:9-26:77
+37            android:name="com.example.photogallery.PhotoPageActivity"
+37-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:25:13-46
+38            android:configChanges="keyboardHidden|orientation|screenSize" />
+38-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:26:13-74
+39
+40        <service android:name="com.example.photogallery.PollService" />
+40-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:27:9-47
+40-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:27:18-45
+41
+42        <receiver android:name="com.example.photogallery.StartupReceiver" >
+42-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:29:9-33:20
+42-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:29:19-50
+43            <intent-filter>
+43-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:30:13-32:29
+44                <action android:name="android.intent.action.BOOT_COMPLETED" />
+44-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:17-78
+44-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:25-76
+45            </intent-filter>
+46        </receiver>
+47        <receiver
+47-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:34:9-40:20
+48            android:name="com.example.photogallery.NotificationReceiver"
+48-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:34:19-55
+49            android:exported="false" >
+49-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:35:13-37
+50            <intent-filter android:priority="-999" >
+50-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:36:13-39:29
+50-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:37:17-40
+51                <action android:name="com.example.photogallery.SHOW_NOTIFICATION" />
+51-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:38:17-84
+51-->/home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:38:25-82
+52            </intent-filter>
+53        </receiver>
+54    </application>
+55
+56</manifest>
