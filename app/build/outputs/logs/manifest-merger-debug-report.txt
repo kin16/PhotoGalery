@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/eee/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/eee/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /home/eee/.gradle/caches/transforms-2/files-2.1/94ca7aa857678cd89ac25e1de0466010/recyclerview-1.1.0-beta03/AndroidManifest.xml:17:1-24:12
@@ -32,29 +32,47 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/eee/.gradle/cache
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/eee/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/eee/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/eee/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-19:12
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:5:5-66
+permission#com.example.photogallery.PRIVATE
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:5:5-6:46
+	android:protectionLevel
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:6:9-44
 	android:name
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:5:17-64
+uses-permission#android.permission.INTERNET
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#com.example.photogallery.PRIVATE
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:11:22-69
 application
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:7:5-18:19
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:5-38:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/eee/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/eee/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0-rc02] /home/eee/.gradle/caches/transforms-2/files-2.1/d23ca375c576c4f77f42c729153a7f8a/core-1.1.0-rc02/AndroidManifest.xml:24:5-89
@@ -64,29 +82,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0-rc02] /home/eee/.gradle/caches/transforms-2/files-2.1/d23ca375c576c4f77f42c729153a7f8a/core-1.1.0-rc02/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:15:9-41
 	android:icon
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:7:18-44
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:18-44
 	android:theme
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.example.photogallery.PhotoGalleryActivity
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:12:9-17:20
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:18:9-23:20
 	android:name
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:12:19-55
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:18:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:14:17-68
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:20:17-68
 	android:name
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:15:17-76
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:21:17-76
 	android:name
-		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:21:27-74
+service#com.example.photogallery.PollService
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:24:9-47
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:24:18-45
+receiver#com.example.photogallery.StartupReceiver
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:26:9-30:20
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:26:19-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:27:13-29:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:28:25-76
+receiver#com.example.photogallery.NotificationReceiver
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:9-37:20
+	android:exported
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:31:19-55
+intent-filter#action:name:com.example.photogallery.SHOW_NOTIFICATION
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:33:13-36:29
+	android:priority
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:34:17-40
+action#com.example.photogallery.SHOW_NOTIFICATION
+ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:35:17-84
+	android:name
+		ADDED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml:35:25-82
 uses-sdk
 INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/eee/PhotoGallery/app/src/main/AndroidManifest.xml

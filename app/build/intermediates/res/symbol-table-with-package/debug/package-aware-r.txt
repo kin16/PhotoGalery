@@ -777,6 +777,7 @@ id line3
 id listMode
 id list_item
 id menu_item_clear
+id menu_item_polling
 id menu_item_search
 id message
 id middle
@@ -944,9 +945,13 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string clear_search
+string new_pictures_text
+string new_pictures_title
 string search
 string search_menu_title
+string start_polling
 string status_bar_notification_info_overflow
+string stop_polling
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

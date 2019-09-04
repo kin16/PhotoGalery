@@ -1,4 +1,7 @@
-#Sat Aug 24 19:43:20 YEKT 2019
-base.0=/home/eee/PhotoGallery/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Tue Sep 03 20:46:30 YEKT 2019
+base.0=/home/eee/PhotoGallery/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/home/eee/PhotoGallery/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

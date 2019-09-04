@@ -1,5 +1,7 @@
 package com.example.photogallery;
 
+import android.net.Uri;
+
 public class GalleryItem {
     private String mCaption;
     private String mId;
@@ -37,5 +39,17 @@ public class GalleryItem {
 
     public void setOwner(String mOwner) {
         this.mOwner = mOwner;
+    }
+
+    public String getmOwner() {
+        return mOwner;
+    }
+
+    public Uri getPhotoPageUri(){
+        return Uri.parse("http://www.flickr.com/photos")
+                .buildUpon()
+                .appendPath(mOwner)
+                .appendPath(mId)
+                .build();
     }
 }
